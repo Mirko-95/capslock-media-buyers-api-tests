@@ -67,3 +67,4 @@ Once a real environment exists, I would add:
 - Contract drift checks using an OpenAPI file, schema versioning, or provider/consumer contract tests.
 - Parallelization after data isolation is solved.
 - Reporting with screenshots/logs only when failures need extra context.
+- Authentication tests would be added once authentication requirements are defined.
