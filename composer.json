@@ -1,0 +1,20 @@
+{
+  "name": "candidate/capslock-media-buyers-api-tests",
+  "description": "Codeception API test design for the Media Buyers contract.",
+  "type": "project",
+  "require-dev": {
+    "codeception/codeception": "^5.1",
+    "codeception/module-asserts": "^3.0",
+    "codeception/module-phpbrowser": "^3.0",
+    "codeception/module-rest": "^3.4",
+    "opis/json-schema": "^2.5"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Support\\": "tests/_support/"
+    }
+  },
+  "scripts": {
+    "test": "codecept run Api"
+  }
+}

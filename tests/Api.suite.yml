@@ -1,0 +1,10 @@
+actor: ApiTester
+modules:
+  enabled:
+    - REST:
+        depends: PhpBrowser
+        url: '%BASE_URL%/api'
+        part: Json
+    - PhpBrowser:
+        url: '%BASE_URL%/api'
+    - Asserts
